@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>calculator</h1>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="calc-box">
+            <input id="i1"></input>
+            <br>
+            <br>
+            <button  onclick="send(7)">7</button>
+            <button onclick="send(8)">8</button>
+            <button onclick="send(9)">9</button>
+            <button  onclick="send('+')">+</button>
+            <br>
+            <br>
+            <button  onclick="send(4)">4</button>
+            <button  onclick="send(5)">5</button>
+            <button  onclick="send(6)">6</button>
+            <button  onclick="send('-')">-</button>
+            <br>
+            <br>
+            <button  onclick="send(1)">1</button>
+            <button  onclick="send(2)">2</button>
+            <button  onclick="send(3)">3</button>
+            <button  onclick="send('*')">*</button>
+            <br>
+            <br>
+            <button onclick="send(0)">0</button>
+            <button  onclick="send('.')">.</button>
+            <button  onclick="send('√')">√</button>
+            <button  onclick="send('/')">/</button>
+            <br>
+            <br>
+            <button class="btn" onclick="send('AC')">AC</button>
+            <button class="btn"  onclick="send('=')">=</button> 
+            
+        </div>
+    </div>
+    <footer>Thank You</footer>
+</body>
+</html>
